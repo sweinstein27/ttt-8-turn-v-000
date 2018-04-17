@@ -36,4 +36,3 @@ end
     move
   else turn(board)
    end
-   
