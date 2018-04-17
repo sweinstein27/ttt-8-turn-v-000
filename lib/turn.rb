@@ -32,8 +32,8 @@ end
   puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
-  # if valid_move?
-  #   move
+  if index.between(0, 8)
+    move
   # else turn(board)
-  #  end
+  end
  end
