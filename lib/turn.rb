@@ -32,7 +32,7 @@ end
   puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
-  if index == between(0, 8)
+  if index.between(0, 8) = true
     move
   # else turn(board)
   end
