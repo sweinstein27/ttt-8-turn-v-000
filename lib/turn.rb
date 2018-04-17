@@ -34,6 +34,6 @@ end
   index = input_to_index(input)
   if index.between?(0, 8)
     move
-  # else turn(board)
+  else turn(board)
   end
  end
