@@ -35,6 +35,6 @@ end
   if index.between?(0, 8) && valid_move?(board, index)
     move(board, index, "X")
   else turn(board)
-    display_board
+    display_board(board)
   end
  end
